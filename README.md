@@ -1,7 +1,7 @@
 # htmlBlock
 
+安装
 
-1、安装包
 ```
 npm install bower -g
 
@@ -15,10 +15,11 @@ bower install
 ```
 npm start
 ```
-访问
-```
+## 访问
+
  [http://127.0.0.1:3001](http://127.0.0.1:3001)
-```
+
+
 
 ## 目录结构
 ```
