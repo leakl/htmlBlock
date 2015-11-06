@@ -1,7 +1,7 @@
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');
-var session = require('express-session');
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -60,9 +60,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-app.use(session({
-  secret: 'dfsfsfsdfdsfds', // 建议使用 128 个字符的随机字符串
-  cookie: { maxAge: 60 * 1000 }
-}));
 
 module.exports = app;
