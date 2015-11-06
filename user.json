@@ -1,0 +1,11 @@
+/*
+用来测试 session
+*/
+
+{
+  "name":"loginData",
+  "user":[
+    {"username":"leakl","passwd":"leakl_5412"},
+    {"username":"nick","passwd":"nick_5412"}
+  ]
+}
