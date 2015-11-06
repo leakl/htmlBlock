@@ -1,5 +1,11 @@
 # htmlBlock
 
+html 片段代码生成工程 
+
+```
+ nodejs + express + hbs + less
+ 
+```
 
 1、安装包
 ```
