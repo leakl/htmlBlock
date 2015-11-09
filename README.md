@@ -29,12 +29,11 @@ npm start
 ## 目录结构
 ```
   block      //html片段源码
-   |- ...
+   |----
       |--  *.html
       |--  *.less
-   |--
+   |---
    
-  blockTranstate   // hbs to html   less to css
-  
-  ```
+  lib   // hbs to html   less to css
+```
   
