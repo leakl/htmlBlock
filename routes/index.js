@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 var fs = require('fs');
-var scanFolder = require('../blockTranstate/scanFolder');
-var translate = require('../blockTranstate/translate');
+var scanFolder = require('../lib/scanFolder');
+var translate = require('../lib/translate');
 var blockPath = './block';
 
 /* GET home page. */
